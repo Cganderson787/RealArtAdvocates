@@ -91,12 +91,11 @@ a:hover {
     margin: 10px;
 }
 .about-link {
-    color: #000; /* Set the font color to black */
-    text-decoration: none; /* Remove underline from links */
+    color: #000;
 }
 
 .about-link:hover {
-    text-decoration: underline; /* Underline the link on hover */
+    text-decoration: underline; 
 }
 .article-list {
     list-style: none;
@@ -104,5 +103,5 @@ a:hover {
 }
 
 .article-list li {
-    margin-bottom: 10px; /* Add spacing between articles as needed */
+    margin-bottom: 10px;
 }
