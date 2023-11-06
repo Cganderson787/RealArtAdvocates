@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background: linear-gradient(90deg, #0077cc, #ff6600);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo img {
+    width: 100px; 
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: linear-gradient(90deg, #0077cc, #ff6600);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    margin-top: 20px; 
+    text-align: center;
+}
+
+.image-container img {
+    width: 300px;
+    margin: 10px;
+}
+.about-link {
+    color: #000; /* Set the font color to black */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.about-link:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}
+.article-list {
+    list-style: none;
+    padding: 0;
+}
+
+.article-list li {
+    margin-bottom: 10px; /* Add spacing between articles as needed */
+}
